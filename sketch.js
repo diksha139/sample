@@ -13,8 +13,8 @@ var doraSound;
 
 function preload() {
   backgroundImage = loadImage("./assets/b.png");
-  car1_img = loadAnimation("../assets/d1.png","../assets/d2.png","../assets/d3.png","../assets/d4.png","../assets/d5.png","../assets/d6.png",);
-  car2_img = loadAnimation("../assets/K81.png","../assets/K82.png","../assets/K83.png","../assets/K84.png","../assets/K85.png","../assets/K86.png",);
+  car1_img = loadAnimation("./assets/d1.png","./assets/d2.png","./assets/d3.png","./assets/d4.png","./assets/d5.png","./assets/d6.png",);
+  car2_img = loadAnimation("./assets/K81.png","./assets/K82.png","./assets/K83.png","./assets/K84.png","./assets/K85.png","./assets/K86.png",);
   track = loadImage("../assets/grass.jpg");
   fuelImage = loadImage("./assets/ENERGY.jpg");
   powerCoinImage = loadImage("./assets/goldCoin.png");
