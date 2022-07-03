@@ -12,21 +12,21 @@ var dieSound;
 var doraSound;
 
 function preload() {
-  backgroundImage = loadImage("./assets/b.png");
-  car1_img = loadAnimation("./assets/d1.png","./assets/d2.png","./assets/d3.png","./assets/d4.png","./assets/d5.png","./assets/d6.png",);
-  car2_img = loadAnimation("./assets/K81.png","./assets/K82.png","./assets/K83.png","./assets/K84.png","./assets/K85.png","./assets/K86.png",);
-  track = loadImage("../assets/grass.jpg");
-  fuelImage = loadImage("./assets/ENERGY.jpg");
-  powerCoinImage = loadImage("./assets/goldCoin.png");
-  obstacle1Image = loadImage("./assets/obstacle11.png");
-  obstacle2Image = loadImage("./assets/obstacle51.png");
-  obstacle3Image = loadImage("./assets/obstacle21.png");
-  lifeImage = loadImage("./assets/life.png");
-  blastImage = loadImage("./assets/blast.png");
+  backgroundImage = loadImage("assets/b.png");
+  car1_img = loadAnimation("assets/d1.png","assets/d2.png","assets/d3.png","assets/d4.png","assets/d5.png","assets/d6.png",);
+  car2_img = loadAnimation("assets/K81.png","assets/K82.png","assets/K83.png","assets/K84.png","assets/K85.png","assets/K86.png",);
+  track = loadImage("assets/grass.jpg");
+  fuelImage = loadImage("assets/ENERGY.jpg");
+  powerCoinImage = loadImage("assets/goldCoin.png");
+  obstacle1Image = loadImage("assets/obstacle11.png");
+  obstacle2Image = loadImage("assets/obstacle51.png");
+  obstacle3Image = loadImage("assets/obstacle21.png");
+  lifeImage = loadImage("assets/life.png");
+  blastImage = loadImage("assets/blast.png");
 
-  coinSound=loadSound("./sounds/Coin.mp3");
-  dieSound=loadSound("./sounds/die.wav");
-  doraSound=loadSound("./sounds/Doraemon.mp3");
+  coinSound=loadSound("sounds/Coin.mp3");
+  dieSound=loadSound("sounds/die.wav");
+  doraSound=loadSound("sounds/Doraemon.mp3");
 
 }
 
